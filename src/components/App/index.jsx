@@ -72,7 +72,7 @@ class App extends Component {
         </div>
         <div className="map">
             <GoogleMapReact center={center} zoom={14}>
-              {flats.map(flat => {
+              {filteredFlats.map(flat => {
                 const { lat, lng, price } = flat;
 
                 return(
