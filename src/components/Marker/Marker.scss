@@ -1,0 +1,16 @@
+.marker {
+    width: 50px;
+    background-color: white;
+    color: #555;
+    border: 1px solid #333;
+    text-align: center;
+    padding: 5px 0;
+    font-weight: bold;
+    font-size: 1.4em;
+    border-radius: 4px;
+    
+    &.selected {
+    background-color: red;
+    color: white;
+    }
+}
